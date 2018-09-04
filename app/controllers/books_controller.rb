@@ -3,8 +3,8 @@ class BooksController < ApplicationController
     def index
         books = Book.all
         respond_to do |format| 
-            format.json {render json: "{\"name\":\"Alejandro\"}", status:200}
-            format.html {render html: "{\"name\":\"Alejandro\"}", status:200}
+            format.json {render json: "{\"name\":\"Katherine\"}", status:200}
+            format.html {render html: "{\"name\":\"Katherine\"}", status:200}
 
         end
     end
